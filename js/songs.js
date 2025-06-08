@@ -128,3 +128,4 @@ songs = [
         color:"#958b73"
     },
 ]
+songs.sort(() => Math.random() - 0.5);
