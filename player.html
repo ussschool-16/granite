@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Плеер</title>
+    <link rel="stylesheet" href="css/player.css">
+    <script src="js/songs.js" defer></script>
+    <script src="js/player.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/data.js" defer></script>
+    <script src="js/fav.js" defer></script>
+    <script src="js/nav.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__wrapper wrapper">
+                <a href="index.html" class="logo"><img src="img/layout/logo.svg" class="desktop_logo" alt=""><img src="img/layout/logo mobile.svg" class="mobile_logo" alt=""></a>
+                <div class="navigation">
+                    <nav>
+                        <div id="nav-close"></div>
+                        <a href="index.html">Главная</a>
+                        <a href="books.html">Учебники</a>
+                        <a href="info.html">Материалы</a>
+                        <a href="websites.html">Сайты</a>
+                        <a class="active" href="player.html">Музыка</a>
+                    </nav>
+                    <div id="nav-open"></div>
+                    <a class="profile" href="favorite.html"><img src="img/icons/profile.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="songs-list">
+        </div>
+        <div class="player-wrapper">
+            <div class="top">
+                <div class="album-covers">
+
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="controls">
+                    <div class="songname"></div>
+                    <div class="author"></div>
+                    <div class="timeline">
+                        <div class="line">
+                            <div class="progress"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <div class="now-time">
+
+                        </div>
+                        <div class="total-time">
+
+                        </div>
+                    </div>
+
+                    <div class="control-buttons">
+                        <div class="song-controls">
+                            <div class="previous cbutton"></div>
+                            <div class="pause cbutton paused"></div>
+                            <div class="next cbutton"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© <img src="img/layout/logo.svg" class="desktop_logo" alt=""><img src="img/layout/logo mobile.svg" class="mobile_logo" alt=""> 2025</p>
+    </footer>
+
+</body>
+
+</html>
