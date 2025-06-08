@@ -330,7 +330,7 @@ footer p {
     nav {
         transition: .3s;
         top: 0;
-        left: 0;
+        right: 0;
         font-size: 60px;
         display: flex;
         align-items: end;
@@ -343,13 +343,13 @@ footer p {
         z-index: 999;
         background: #9EB7DE;
         background-size: 100%;
-        /* backdrop-filter: blur(50px); */
+        transform-origin: right;
     }
     nav a{
         font-size: 50px;
     }
     nav:not(.active) {
-        transform: translateX(100%);
+        transform: scaleX(0);
     }
 
     #nav-open,
