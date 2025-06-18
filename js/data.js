@@ -9984,7 +9984,7 @@ const info = {
         },
         {
             "id": 1795,
-            "img": "skeleton.webp",
+            "img": "skeleton.jpg",
             "name": "Скелет человека",
             "description": "Основные кости."
         }
